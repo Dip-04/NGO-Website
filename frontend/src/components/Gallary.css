@@ -1,0 +1,40 @@
+.team-member-card1 {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    border-bottom: 10px solid white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0); 
+    transition: left 0.4s ease, background-color 0.4s ease; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-member-card1:hover .overlay {
+    left: 0;
+    background-color: #dd7328d2; 
+}
+
+.member-details1 .social-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    ;
+}
+
+.member-details1 .overlay a {
+    transition: transform 0.3s ease;
+    border-bottom: 2px solid rgb(34, 0, 135);
+}
+
+.member-details1 .overlay a:hover {
+    transform: scale(1.1);
+}

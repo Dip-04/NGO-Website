@@ -1,0 +1,11 @@
+.so:hover{
+color: rgb(0, 136, 255)!important;
+font-size: 35px!important;
+}
+.so{
+    border-bottom:3px solid rgb(224, 189, 12);
+}
+.lk:hover{
+    color: rgb(224, 189, 12)!important;
+    font-size: 18px;
+}
